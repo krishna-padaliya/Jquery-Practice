@@ -1,0 +1,44 @@
+1-What is J-Query..??
+J-Query library of Java script,
+MOTO= right less do more..
+
+2-what is the use  of j-query..??
+responsive navbar,
+slider,
+form validation
+
+
+3-how to use jquery..??
+first get cdn of jquery
+then paste it in you html page
+then
+start <script> tag, and write the code in it.
+
+4-where you can write script tag..??
+inside the head,
+inside the body,
+and 
+between end of body tag and end of html tag
+
+5-what is the syntax of jquery..??
+$= indicator of jquery
+(selector)= thing that need to be target
+.action=task that wants perform
+action also know as events
+
+
+$("selector").action(function(){
+	$("selector").action(function(){
+		$("selector").function(){
+});
+function likes css(),hide(),show(),slide(),
+6-how many type action..??
+
+mouse-events= click, dblclick,contextmenu,mouseenter,mouseleave
+keyboard-events= keypress, keyup,keydown
+window-events= load,unload,scroll,resize
+form-event=select,blur,change...
+
+
+
+

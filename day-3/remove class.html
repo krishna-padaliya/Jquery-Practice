@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>remove class</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+
+    <style>
+        .a{
+            width: 200px;
+            height: 200px;
+            background-color: rgb(53, 3, 47);
+        }
+    </style>
+</head>
+<body>
+    <div class="a"></div>
+    <button>Remove box</button>
+</body>
+<script>
+    $(document).ready(function(){
+        $("button").click(function(){
+            $("div").removeClass("a");
+        });
+    });
+    </script>
+</html>
